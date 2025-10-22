@@ -1,0 +1,72 @@
+# Gradle build output
+/build/
+.gradle/
+**/build/
+
+# Local IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin compiler output
+/out/
+
+# Android specific
+/local.properties
+/.cxx/
+/captures/
+/outputs/
+*.apk
+*.ap_
+*.aab
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated files
+gen/
+bin/
+
+# Dependency caches
+.gradle/
+.caches/
+.kotlinc/
+
+/shelf/
+/workspace.xml
+
+# JetBrains caches
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Keystore files (if Android app)
+*.jks
+*.keystore
+*.pem
+
+# Local test results
+/test-results/
+/reports/
+/coverage/
+/jacoco/
+
+# VS Code (if you use it)
+.vscode/
+
+# Environment & secrets
+.env
