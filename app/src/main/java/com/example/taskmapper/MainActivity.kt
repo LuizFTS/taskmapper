@@ -5,9 +5,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import androidx.compose.material3.MaterialTheme
 import androidx.navigation.compose.rememberNavController
 import com.example.taskmapper.ui.navigation.AppNavHost
+import com.example.taskmapper.ui.theme.MyApplicationTheme
 import com.example.taskmapper.ui.viewmodel.TaskViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -22,7 +22,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            MaterialTheme {
+            MyApplicationTheme {
+
                 val navController = rememberNavController()
 
                 AppNavHost(
